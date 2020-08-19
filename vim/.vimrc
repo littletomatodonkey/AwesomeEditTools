@@ -1,5 +1,3 @@
-autocmd InsertEnter * setlocal paste
-autocmd InsertLeave * setlocal nopaste
 set ruler
 set noswapfile
 set nobackup
