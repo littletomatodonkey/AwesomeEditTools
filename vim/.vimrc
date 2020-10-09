@@ -21,3 +21,8 @@ syntax on
 colorscheme desert
 
 set encoding=utf-8
+
+" turn to the position where exit last time
+if has("autocmd")
+    au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
