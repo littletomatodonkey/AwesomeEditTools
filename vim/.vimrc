@@ -5,8 +5,6 @@ set nonu
 
 set tabstop=4
 set expandtab "turn tab keypresses into spaces. you can still insert real tabs as [Ctrl]-V [Tab]
-"set smartindent
-"set autoindent
 
 set cindent
 set shiftwidth=4
